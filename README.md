@@ -148,7 +148,7 @@ $postLimit = 5; // 每个订阅源获取的文章篇数
 
 ### **添加个人访问令牌（PAT）:**
 
-点击自己的头像，选择 “Settings” -> “Developer settings” -> “Personal access tokens”->”Tokens（classic）“，点击 “Generate new token”，选择”Generate new token（classic）“，验证后，指定一个描述性名称，选择令牌的有效时间，选择要授予此令牌的范围或权限。只需要选择repo一项即可。点击”Generate token“，完成创建，创建完成后，复制保存token，后面要用。
+点击自己的头像，选择 “Settings” -> “Developer settings” -> “Personal access tokens”->”Tokens（classic）“，点击 “Generate new token”，选择”Generate new token（classic）“，验证后，指定一个描述性名称，选择令牌永不过期，选择要授予此令牌的范围或权限。只需要选择repo一项即可。点击”Generate token“，完成创建，创建完成后，复制保存token，后面要用。
 
 ![img](./public/img/image1.png)
 
