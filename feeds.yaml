@@ -2,3 +2,8 @@
 # 类别名称:
 #  - url1
 #  - url2
+分类1:
+  - https://example1.com/feed.rss
+  - https://example2.com/feed2.atom
+分类2:
+  - https://another.com/feed.xml
