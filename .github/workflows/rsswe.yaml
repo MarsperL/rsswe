@@ -21,7 +21,7 @@ jobs:
       - name: 检出仓库代码
         uses: actions/checkout@v5
 
-      - name: 动态聚合订阅源，更新json数据文件
+      - name: 动态聚合订阅源
         run: |
           php feeds.php
           echo -e "\033[32m订阅源聚合完成\033[m"
@@ -30,8 +30,8 @@ jobs:
       - name: 发布至GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: public  #构建生成的目录，默认为public
+          folder: public                   #构建生成的目录，默认为public
           repository-name: username/repo   #推送仓库
-          branch: main    #推送仓库的分支
+          branch: main                     #推送仓库的分支
           token: ${{ secrets.GH_PAT }} 
 
