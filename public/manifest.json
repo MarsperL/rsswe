@@ -1,6 +1,6 @@
 {
-  "short_name": "rsswe",
-  "name": "rsswe",
+  "short_name": "RssWe",
+  "name": "RssWe",
   "icons": [
     {
       "src": "img/apple-touch-icon.png",
@@ -19,9 +19,10 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
-  "description": "RSS和播客应用程序-rsswe",
+  "description": "RSS和播客应用程序-RssWe",
   "categories": ["social", "news"]
 
 }
+
 
 
